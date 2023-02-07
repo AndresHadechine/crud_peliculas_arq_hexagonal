@@ -2,6 +2,8 @@ package com.example.peliculasarqhexagonal.infrastructure.rest.spring.controller;
 
 import com.example.peliculasarqhexagonal.application.service.PeliculaService;
 import com.example.peliculasarqhexagonal.domain.Pelicula;
+import com.example.peliculasarqhexagonal.infrastructure.helpers.Response;
+import com.example.peliculasarqhexagonal.infrastructure.helpers.ResponseBuilder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
